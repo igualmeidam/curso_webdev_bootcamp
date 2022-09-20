@@ -1,0 +1,23 @@
+﻿body {
+  margin: 0;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 50% 11% 11% auto;
+  height: 160px ;
+  align-items: center;
+  border: 1px solid red;
+  
+}
+#grid .navigation img {
+  display: flex;
+  height: 70px;
+  width: 300px;
+  margin: auto;
+  padding-right: 25px;
+}
+.navigation {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
