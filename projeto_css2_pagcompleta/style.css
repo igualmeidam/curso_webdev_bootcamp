@@ -1,12 +1,14 @@
 ﻿body {
   margin: 0;
 }
+
 #grid {
   display: grid;
   grid-template-columns: 50% 11% 11% auto;
-  height: 150px ;
+  height: 150px;
   align-items: center;
 }
+
 #grid .navigation img {
   display: flex;
   height: 65px;
@@ -14,9 +16,10 @@
   margin: auto;
   padding-left: 8%;
 }
+
 .navigation {
   font-size: 21px;
-  font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Configuração do container com seus itens e da background-image */
@@ -24,33 +27,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg, 
-                      rgba(0,0,0,0.6) 0%,
-                      rgba(0,0,0,0.8) 100%),
-                      url(imgs/rocket.jpg);
-  background-size:cover;
+  background-image: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.8) 100%),
+    url(imgs/rocket.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 46em;
   position: relative;
 }
+
 .container-texto {
   position: absolute;
   left: 20%;
   top: 27%;
-  font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height: 40%;
 }
+
 .container-background .container-texto h1 {
   font-size: 55px;
   color: white;
   margin: 0;
-  }
+}
+
 .container-background .container-texto h2 {
   font-size: 27px;
   color: white;
 }
+
 .container-background .container-texto a {
   border-radius: 10%;
   position: relative;
@@ -67,7 +74,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #container2 .texto-solo {
@@ -80,10 +87,12 @@
   flex-direction: row;
   border: 5px solid black;
 }
+
 #container3 .img1 {
   width: 200px;
   height: 200px;
 }
+
 #container3 .img2 {
-  width: 200px;
+  width: 180px;
 }
